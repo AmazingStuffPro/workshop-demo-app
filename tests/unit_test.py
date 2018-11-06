@@ -7,8 +7,8 @@ def test_add():
 
 
  def test_subtract():
-     result = subtract(4, 2)
-     assert result == 2
+    result = subtract(4, 2)
+    assert result == 2
 
 
  def test_multiply():
