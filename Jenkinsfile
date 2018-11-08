@@ -8,7 +8,7 @@ pip3 install virtualenv --user
 python3 -m venv repo. repo/bin/activate
 
 # Install python requirements
-pip install -r requirements.txt'''
+pip3 install -r requirements.txt'''
       }
     }
     stage('Test') {
