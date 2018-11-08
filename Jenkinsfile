@@ -5,10 +5,11 @@ pipeline {
       steps {
         sh '''# Create python virtual Environment
 pip3 install virtualenv --user
-python3 -m venv repo. repo/bin/activate
+python3 -m venv repo
+. repo/bin/activate
 
 # Install python requirements
-pip3 install -r requirements.txt'''
+pip install -r requirements.txt --user'''
       }
     }
     stage('Test') {
