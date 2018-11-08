@@ -3,11 +3,11 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh '''# Create Python Virtual Env
+        sh '''# Create python virtual Environment
 pip3 install virtualenv --user
-python3 -m venv repo
+python3 -m venv repo. repo/bin/activate
 
-# Install
+# Install python requirements
 pip install -r requirements.txt'''
       }
     }
